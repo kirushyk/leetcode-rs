@@ -1,2 +1,10 @@
-[project]
-name="leetcode-rs"
+[package]
+name = "leetcode-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kyrylo Polezhaiev"]
+
+[dependencies]
+
+# Each binary will be automatically discovered in src/bin
+# You don't need to declare them here explicitly
